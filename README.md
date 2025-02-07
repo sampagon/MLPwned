@@ -40,7 +40,7 @@ sudo apt install mingw-w64
 ```bash
 msfvenom -a x64 --platform Windows -p windows/x64/exec CMD=calc.exe -f python
 ```
-![MLPwned Screenshot](assets/1.jpg)
+![MLPwned Screenshot](assets/2.jpg)
 
 ### 2. Embed the Shellcode into MLPwned.py
 Copy and paste the Python-formatted shellcode into MLPwned.py under the comment:
@@ -53,7 +53,7 @@ Copy and paste the Python-formatted shellcode into MLPwned.py under the comment:
 ```bash
 python MLPwned.py
 ```
-![MLPwned Screenshot](assets/2.jpg)
+![MLPwned Screenshot](assets/1.jpg)
 
 
 ### 4. Compile MLPwned.c to a Windows Executable

@@ -43,7 +43,7 @@ msfvenom -a x64 --platform Windows -p windows/x64/exec CMD=calc.exe -f python
 ![MLPwned Screenshot](assets/2.jpg)
 
 ### 2. Embed the Shellcode into MLPwned.py
-Copy and paste the Python-formatted shellcode into MLPwned.py under the comment:
+Copy and paste the Python-formatted shellcode into `MLPwned.py` under the comment:
 ```bash
 # Add msfvenom shellcode below
 ```

@@ -1,7 +1,5 @@
 # MLPwned
 
-Using neural networks for malicious code obfuscation and delivery.
-
 MLPwned is a proof-of-concept tool that uses a small, overfitted neural network (specifically a multi-layer perceptron) to store and reconstruct arbitrary shellcode at runtime. By embedding the shellcode bytes into the model’s learned weights, the script makes static analysis significantly more difficult. This is because traditional antivirus or forensic tools won’t directly detect malicious byte sequences in the binary. The final output is a self-contained C file that includes both the trained model parameters and logic needed to rebuild and execute the shellcode on demand, all without requiring a GPU. This approach is inspired by implicit neural representations, highlighting how neural networks can be used in unconventional ways to obfuscate and deliver malicious payloads.
 
 ## Table of Contents

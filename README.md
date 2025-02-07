@@ -6,7 +6,6 @@ MLPwned is a proof-of-concept tool that uses a small, overfitted neural network 
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
 
 ## Installation
 
